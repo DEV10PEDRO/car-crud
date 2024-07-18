@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+    <div class= "container">
     <h1>CRUD de Cell</h1>
     <form action="pesquisa_cell.php" method="POST">
         <label for="marca">Marca:</label>
@@ -17,6 +18,7 @@
         
         <input type="submit" value="Pesquisa Cell">
     </form>
+    </div>
     <h2>Pesquisa de Cell</h2>
     <div id="pesquisa-cell">
         <?php include 'pesquisa_cell.php'; ?>
