@@ -1,17 +1,14 @@
 <?php
 // Classe Carro que representa um carro
-class Carro {
+class Cell {
     private $marca;
     private $modelo;
-    private $ano;
-    private $cor;
 
     // Construtor da classe
-    public function __construct($marca, $modelo, $ano, $cor) {
+    public function __construct($marca, $modelo) {
         $this->marca = $marca;
         $this->modelo = $modelo;
-        $this->ano = $ano;
-        $this->cor = $cor;
+        
     }
 
     // Getters para acessar as propriedades do carro
@@ -23,12 +20,5 @@ class Carro {
         return $this->modelo;
     }
 
-    public function getAno() {
-        return $this->ano;
     }
-
-    public function getCor() {
-        return $this->cor;
-    }
-}
 ?>

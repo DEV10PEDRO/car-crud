@@ -38,19 +38,20 @@ input[type="submit"] {
     padding: 5px 15px;
 }
 
-#lista-carros {
-    width: 80%;
+#lista-cell {
+    width: 30%;
     margin: 20px auto;
     border: 1px solid #000;
     padding: 10px;
+    margin-left: 2px;
 }
 
-.item-carro {
+.item-cell {
     padding: 10px;
     border-bottom: 1px solid #ccc;
 }
 
-.item-carro:last-child {
+.item-cell:last-child {
     border-bottom: none;
 }
 
